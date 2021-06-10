@@ -1,0 +1,10 @@
+add_executable(udp_connect_client udp_connect_client.c)
+target_link_libraries(udp_connect_client yolanda)
+
+add_executable(udp_connect_server udp_connect_server.c)
+target_link_libraries(udp_connect_server yolanda)
+
+add_executable(udp_connect_client02 udp_connect_client02.c)
+target_link_libraries(udp_connect_client02 yolanda)
+
+

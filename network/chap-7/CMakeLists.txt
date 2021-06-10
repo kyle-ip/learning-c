@@ -1,0 +1,11 @@
+add_executable(unix_stream_server unix_stream_server.c)
+target_link_libraries(unix_stream_server yolanda)
+
+add_executable(unix_stream_client unix_stream_client.c)
+target_link_libraries(unix_stream_client yolanda)
+
+add_executable(unix_data_server unix_data_server.c)
+target_link_libraries(unix_data_server yolanda)
+
+add_executable(unix_data_client unix_data_client.c)
+target_link_libraries(unix_data_client yolanda)
